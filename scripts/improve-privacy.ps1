@@ -1,3 +1,5 @@
+# Based on parts from https://github.com/Sycnex/Windows10Debloater/blob/master/Individual%20Scripts/Protect%20Privacy
+
 #Disables Windows Feedback Experience
 Write-Output "Disabling Windows Feedback Experience program"
 $Advertising = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo"
